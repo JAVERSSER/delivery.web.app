@@ -13,4 +13,7 @@ export default defineConfig({
       'firebase/storage',
     ],
   },
+  build: {
+    target: 'es2022',
+  },
 })
